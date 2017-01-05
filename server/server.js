@@ -19,6 +19,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/getAnswers', (req, res) => {
+	console.log('requet!!!')
 	var input = req.query.question;
 
 	var question = function(input) {
